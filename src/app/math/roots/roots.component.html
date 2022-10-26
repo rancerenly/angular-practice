@@ -1,0 +1,23 @@
+<p>roots works!</p>
+
+<div><span>a: </span>{{a}}</div>
+<div><span>b: </span>{{b}}</div>
+<div><span>c: </span>{{c}}</div>
+<div><span>x1: </span>{{rootsArray.x1}}</div>
+<div><span>x2: </span>{{rootsArray.x2}}</div>
+<div>
+  <label for="a_number">A: </label>
+  <input type="number" id="a_number" [(ngModel)]="a">
+</div>
+
+<div>
+  <label for="b_number">B: </label>
+  <input type="number" id="b_number" [(ngModel)]="b">
+</div>
+
+<div>
+  <label for="c_number">C: </label>
+  <input type="number" id="c_number" [(ngModel)]="c">
+</div>
+
+<button type="button" class="calculate" (click)="this.getRoots()">Calculate</button>
