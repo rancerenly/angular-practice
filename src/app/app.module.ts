@@ -4,11 +4,15 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { MathComponent } from './math/math.component';
+import { SquareComponent } from './math/square/square.component';
+import { CircleComponent } from './math/circle/circle.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MathComponent
+    MathComponent,
+    SquareComponent,
+    CircleComponent
   ],
   imports: [
     BrowserModule,

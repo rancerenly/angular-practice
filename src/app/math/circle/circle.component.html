@@ -1,0 +1,11 @@
+<h2> {{ circle.title }} </h2>
+<div><span>area: </span>{{circle.area}}</div>
+<div><span>perimeter: </span>{{circle.perimeter }}</div>
+<div><span>raduis: </span>{{circle.raduis}}</div>
+
+<div>
+  <label for="raduis">raduis equals:</label>
+  <input type="number" id="raduis" [(ngModel)]="circle.raduis" placeholder="raduis">
+</div>
+
+<button type="button" class="calculate" (click)="this.getArea(); this.getPerimeter();">Calculate</button>
