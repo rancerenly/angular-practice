@@ -9,7 +9,7 @@ import { SimpleCalculatorService } from '../simple-calculator.service';
 export class MathComponent implements OnInit {
 
   constructor(public simpleCalculatorService: SimpleCalculatorService) { }
-  
+
   ngOnInit(): void {
   }
 

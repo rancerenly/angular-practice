@@ -17,5 +17,12 @@ export class Circle implements Figure {
   perimeter!: number;
   raduis!: number;
 }
-
+export class Triangle implements Figure {
+  title!: string;
+  area!: number;
+  perimeter!: number;
+  a_side!: number;
+  b_side!: number;
+  c_side!: number;
+}
 

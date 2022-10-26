@@ -1,0 +1,22 @@
+
+<h2> {{ triangle.title }} </h2>
+<div><span>area: </span>{{triangle.area}}</div>
+<div><span>perimeter: </span>{{triangle.perimeter }}</div>
+<div><span>a_side: </span>{{triangle.a_side}}</div>
+<div><span>b_side: </span>{{triangle.b_side }}</div>
+
+<div>
+  <label for="a_side">"A" side equals:</label>
+  <input type="number" id="a_side" [(ngModel)]="triangle.a_side" placeholder="a_side">
+</div>
+
+<div>
+  <label  for="b_side">"B" side equals:</label>
+  <input type="number" for="b_side" [(ngModel)]="triangle.b_side" placeholder="b_side">
+</div>
+<div>
+  <label  for="c_side">"C" side equals:</label>
+  <input type="number" for="c_side" [(ngModel)]="triangle.c_side" placeholder="c_side">
+</div>
+
+<button type="button" class="calculate" (click)="this.getArea(); this.getPerimeter();">Calculate</button>
