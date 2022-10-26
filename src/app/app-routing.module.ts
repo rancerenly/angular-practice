@@ -9,7 +9,7 @@ import { TriangleComponent } from './math/triangle/triangle.component';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path:'home', component: HomeComponent, children: [
+  { path:'', component: HomeComponent, children: [
       { path: 'math', component: MathComponent, children: [
           {
             path: 'square',
