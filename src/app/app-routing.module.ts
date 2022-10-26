@@ -7,7 +7,7 @@ import { SquareComponent } from './math/square/square.component';
 import { CircleComponent } from './math/circle/circle.component';
 import { TriangleComponent } from './math/triangle/triangle.component';
 import { HomeComponent } from './home/home.component';
-import { SquareRootsComponent } from './math/square-roots/square-roots.component';
+import { RootsComponent } from './math/roots/roots.component';
 
 const routes: Routes = [
   { path:'', component: HomeComponent, children: [
@@ -25,8 +25,8 @@ const routes: Routes = [
             component: TriangleComponent
           },
           {
-            path: 'square-roots',
-            component: SquareRootsComponent
+            path: 'squareRoots',
+            component: RootsComponent
           }
         ]
       }
