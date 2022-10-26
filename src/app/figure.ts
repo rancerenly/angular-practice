@@ -11,5 +11,11 @@ export class Square implements Figure {
   a_side!: number;
   b_side!: number;
 }
+export class Circle implements Figure {
+  title!: string;
+  area!: number;
+  perimeter!: number;
+  raduis!: number;
+}
 
 

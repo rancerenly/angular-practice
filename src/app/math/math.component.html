@@ -1,18 +1,2 @@
-
-<h2> {{ square.title }} </h2>
-<div><span>area: </span>{{square.area}}</div>
-<div><span>perimeter: </span>{{square.perimeter }}</div>
-<div><span>a_side: </span>{{square.a_side}}</div>
-<div><span>b_side: </span>{{square.b_side }}</div>
-
-<div>
-  <label for="a_side">"A" side equals:</label>
-  <input type="number" id="a_side" [(ngModel)]="square.a_side" placeholder="a_side">
-</div>
-
-<div>
-  <label  for="b_side">"B" side equals:</label>
-  <input type="number" for="b_side" [(ngModel)]="square.b_side" placeholder="b_side">
-</div>
-
-  <button type="button" class="calculate" (click)="this.getArea(); this.getPerimeter();">Calculate</button>
+<app-square></app-square>
+<app-circle></app-circle>

@@ -8,10 +8,10 @@ export class SimpleCalculatorService {
 
   constructor() { }
 
-  calculateArea(square: Square) {
-    return square.a_side * square.b_side;
+  calculateArea(figure: Figure) {
+    // return square.a_side * square.b_side;
   }
-  calculatePerimeter(square: Square){ 
-    return (square.a_side + square.b_side) * 2;
+  calculatePerimeter(figure: Figure){
+    // return (square.a_side + square.b_side) * 2;
   }
 }
