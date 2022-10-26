@@ -7,6 +7,8 @@ import { MathComponent } from './math/math.component';
 import { SquareComponent } from './math/square/square.component';
 import { CircleComponent } from './math/circle/circle.component';
 import { TriangleComponent } from './math/triangle/triangle.component';
+import { AppRoutingModule } from './app-routing.module';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,13 @@ import { TriangleComponent } from './math/triangle/triangle.component';
     MathComponent,
     SquareComponent,
     CircleComponent,
-    TriangleComponent
+    TriangleComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
